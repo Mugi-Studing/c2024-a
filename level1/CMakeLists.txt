@@ -2,7 +2,8 @@ project(level1)
 
 add_executable(p01_running_letter p01_running_letter/main.cpp
         ../level0/bubbleSort/test.cpp
-        ../level0/bubbleSort/test.h)
+        ../level0/bubbleSort/test.h
+        ../level2/GA/GA.cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
